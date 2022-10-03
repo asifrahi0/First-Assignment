@@ -71,3 +71,27 @@ h1{
     padding: 20px;
 
 }
+.develop{
+    display: flex;
+    margin-top: 86px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 227px 227px;
+    background-position: 95px 40px;
+}
+
+.develop .half-width img{
+    margin-left: 100px;
+}
+#develop{
+    margin-right: 80px;
+}
+.half-width h1{
+    font-family:'Poppins', sans-serif  ;
+    font-weight: 700;
+    font-size: 36px;
+}
+.half-width p{
+    font-family:'Poppins', sans-serif  ;
+    font-size: 14px;
+}
