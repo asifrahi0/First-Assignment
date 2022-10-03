@@ -36,3 +36,38 @@ h1{
     color: white;
     border-radius: 5px;
 }
+.illustrator{
+    display: flex;
+    margin-left: 130px;
+}
+.my-mission h1{
+    text-align: center;
+    font-family:'Poppins', sans-serif ;
+    font-weight: 700;
+    font-size: 48px;
+}
+.mission{
+    width: 25%;
+    margin-left: 24px;
+}
+.mission img{
+    width: 50%;
+}
+#mission{
+    background-color: rgba(80, 161, 161, 0.224);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+#vission{
+    background-color: rgba(177, 98, 122, 0.224);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+#goals{
+    background-color: rgba(173, 139, 88, 0.224);
+    border-radius: 20px;
+    padding: 20px;
+
+}
