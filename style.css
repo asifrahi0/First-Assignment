@@ -3,6 +3,9 @@ h1{
     font-size: 50px;
     font-weight: 400;
 }
+body{
+    margin: 0;
+}
 .image-slice{
     border-left: 4px solid #FF5959;
 }
@@ -94,4 +97,53 @@ h1{
 .half-width p{
     font-family:'Poppins', sans-serif  ;
     font-size: 14px;
+}
+.global-community .half-width img{
+    width: 50%;
+}
+.global-community{
+    display: flex;
+    margin-top: 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position: 900px 160px;
+}
+.corona{
+    margin-top: 100px;
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position: 180px 75px;
+    margin-bottom: 100px;
+}
+.corona h1{
+    text-align: center;
+}
+.stay-safe{
+    display: flex;
+}
+.corona h2{
+    font-size: 38px;
+    font-weight: 700;
+}
+.corona img{
+    margin-left: 150px;
+    width: 50%;
+}
+#stay-safe{
+    margin-right: 150px;
+}
+.red{
+    color: #FF5959;
+}
+.footer{
+    color:white;
+    font-family: 'Lobster Two', cursive;
+    font-size: 15px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 3px;
 }
